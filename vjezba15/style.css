@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 20px;
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    border-bottom: 3px solid #ffcc00;
+}
+
+nav {
+    background-color: #333333;
+    padding: 8px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 12px;
+    font-size: 14px;
+}
+
+main {
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 0 20px 20px 20px;
+    padding: 10px;
+}
+
+main h1 {
+    text-align: center;
+    color: blue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 28px;
+}
+
+main h2 {
+    margin-top: 15px;
+    margin-bottom: 8px;
+    color: #333333;
+    font-size: 20px;
+}
+
+main p {
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.uvod {
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#osnovan {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    padding: 8px;
+    margin-bottom: 12px;
+}
+
+.vazno {
+    color: green;
+    font-weight: bold;
+}
+
+.lego-link {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    border: 1px solid blue;
+    padding: 5px 10px;
+    color: blue;
+    background-color: #ffffff;
+}
+
+.lego-slika {
+    width: 300px;
+    border: 1px solid #cccccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.lista-tema {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    list-style-type: square;
+}
+
+.napomena {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.raspored {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.raspored caption {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.raspored th,
+.raspored td {
+    border: 1px solid #cccccc;
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.raspored th {
+    background-color: #fff7cc;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+
+.lego-contact {
+    background-color: #fafafa;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.lego-form .form-row {
+    margin-bottom: 15px;
+}
+
+.lego-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.lego-form input,
+.lego-form select,
+.lego-form textarea {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0.6rem 0.75rem;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.lego-form input:focus,
+.lego-form select:focus,
+.lego-form textarea:focus {
+    border-color: #007bff;
+    background-color: #eef6ff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+.lego-form input[type="checkbox"]:checked + label,
+.lego-form input[type="radio"]:checked + label {
+    font-weight: 700;
+    color: #1a7f1a;
+}
+
+.lego-form input:disabled {
+    background-color: #eeeeee;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.lego-form input:enabled,
+.lego-form select:enabled,
+.lego-form textarea:enabled {
+    background-color: #ffffff;
+}
+
+.btn-send {
+    display: inline-block;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-send:hover {
+    background-color: #218838;
+}
